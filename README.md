@@ -1276,7 +1276,3 @@ ___
 ___
     
 <h3 align=center>This project licensed under the <a href='./LICENSE'>Apache-2.0 license</a>.</h3>
-    
-<br>
-    
-<p align=center><a href='https://github.com/Svxy/TnyavnTos-GTA5-Mod-Menu'><sup>See GitHub Repo</sup></a></p>
