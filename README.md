@@ -1,6 +1,6 @@
 <h2 align=center>TnyavnTo's GTA 5 Mod Menu</h2>
 
-<h4 align=center><sup>Now has Nightclub Safe loop - $250k/8sec</sup></h4>
+<h4 align=center><sup>Now has Nightclub Safe loop - $250k/4sec</sup></h4>
 
 <p align=center><sup>NOTE: Recovery Submenu locked until Safe Mode is turned off in settings.</sup></p>
 
