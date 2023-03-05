@@ -50,9 +50,6 @@ void hooking::Init()
 	LOG_DEBUG("Getting TFR pointer");
 	hooking::texture_file_register = static_cast<TextureFileRegister>(Memory::pattern("48 89 5C 24 ? 48 89 6C 24 ? 48 89 7C 24 ? 41 54 41 56 41 57 48 83 EC 50 48 8B EA 4C 8B FA 48 8B D9 4D 85 C9").count(1).get(0).get<void>());
 
-	LOG_DEBUG("Getting NRCOE pointer");
-	byte_patch::make(Memory::pattern("48 89 5C 24 ? 57 48 83 EC 20 8B D9 E8 ? ? ? ? ? ? ? ? 8B CB").count(1).get(0).get<std::uint16_t>(0x13), 0x9090)->apply();
-
 	LOG_DEBUG("Getting C4SL pointer");
 	c4_spawn_limit = byte_patch::make(Memory::pattern("41 80 78 28 ? 0F 85 ? ? ? ? 49 8B 80").count(1).get(0).get<std::int8_t>(4), 99).get();
 

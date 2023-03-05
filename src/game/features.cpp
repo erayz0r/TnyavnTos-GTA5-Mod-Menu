@@ -327,7 +327,7 @@ void Cheat::Features::Loop()
 	if (MoneyLoopNC)
 	{
 		// Loop with a small delay to prevent the pickup from 'glitching out'
-		if (GetTickCount64() - MoneyLoopNC_PrevTick > 50)
+		if (GetTickCount64() - MoneyLoopNC_PrevTick > 100)
 		{
 			STATS::STAT_SET_INT(MISC::GET_HASH_KEY(Cheat::helper::StringToChar(Game::gtao::get_current_character() + "_CLUB_POPULARITY")), 1000, true);
 			STATS::STAT_SET_INT(MISC::GET_HASH_KEY(Cheat::helper::StringToChar(Game::gtao::get_current_character() + "_CLUB_PAY_TIME_LEFT")), -1, true);
