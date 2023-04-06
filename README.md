@@ -1,3 +1,7 @@
+<h3 align=center><b><sup>🚫Unfortunately TnyavnTos GTA 5 Mod Menu and TnyavnTos Module Injector will no longer be updated or managed🚫</sup></b></h3>
+
+<br>
+
 <h2 align=center>TnyavnTo's GTA 5 Mod Menu</h2>
 
 <h4 align=center><sup>Now has Nightclub Safe loop - $250k/4sec</sup></h4>
