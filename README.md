@@ -16,7 +16,7 @@
 
 <br>
 
-<p align=center><img alt="version" src="https://img.shields.io/github/v/release/svxy/TnyavnTos-GTA5-Mod-Menu?style=for-the-badge">  <img alt="last commit" src="https://img.shields.io/github/last-commit/svxy/TnyavnTos-GTA5-Mod-Menu?style=for-the-badge">  <img alt="Repo stars" src="https://img.shields.io/github/stars/svxy/TnyavnTos-GTA5-Mod-Menu?style=for-the-badge"></p>
+<p align=center><img alt="version" src="https://img.shields.io/github/v/release/svxy/TnyavnTos-GTA5-Mod-Menu?style=for-the-badge"> <img alt="last commit" src="https://img.shields.io/github/last-commit/svxy/TnyavnTos-GTA5-Mod-Menu?style=for-the-badge"> <img alt="Repo stars" src="https://img.shields.io/github/stars/svxy/TnyavnTos-GTA5-Mod-Menu?style=for-the-badge"> <img alt="Downloads" src="https://img.shields.io/github/downloads/svxy/TnyavnTos-GTA5-Mod-Menu/v1.0.1.0/total?style=for-the-badge&logo=github"></p>
 
 <br>
 
