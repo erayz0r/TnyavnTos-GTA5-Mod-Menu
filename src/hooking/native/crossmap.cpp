@@ -92,7 +92,7 @@ uint64_t HashMapDataArray[] = {
 0x936E6168A9BCEDB5, 0x5E3ED023C0E7CC7C,
 0xD8F66A3A60C62153, 0x4BC3E5D2FB0A1665,
 0x2902843FCD2B2D79, 0xFCEF367B86651ED3,
-0x5AE99C571D5BBE5D, 0x2C0E0814582947D3,
+0x5AE99C571D5BBE5D, 0x71A6F836422FDD2B,
 0x078EBE9809CCD637, 0xCD17096A98584C2B,
 0x5262CC1995D07E09, 0x6FF322107B12B749,
 0x18C1270EA7F199BC, 0x828F3FAE99DA791A,
@@ -6497,7 +6497,7 @@ uint64_t HashMapDataArray[] = {
 0x690B76BD2763E068, 0x340CF8A9750C3D1A,
 0x40EB1EFD921822BC, 0xFAF127E6FF05E72E,
 0x340A36A700E99699, 0xA759D3AD1579CBCB,
-0x8E580AB902917360, 0x3AABE0CD8115D72E
+0x8E580AB902917360, 0x3AABE0CD8115D72E,
 };
 
 void crossmap::initNativeMap()
@@ -6514,7 +6514,7 @@ void crossmap::initNativeMap()
 		return;
 	}
 
-	p2q = reinterpret_cast<twoQwords *>(HashMapDataArray);
+	p2q = reinterpret_cast<twoQwords*>(HashMapDataArray);
 
 	//loops through all items in the hash array, inserts into hash map if unique
 	while (p2q->first)
@@ -6527,7 +6527,7 @@ void crossmap::initNativeMap()
 
 
 static nMap nativeCache;
-bool crossmap::searchMap(nMap map, uint64_t inNative, uint64_t *outNative)
+bool crossmap::searchMap(nMap map, uint64_t inNative, uint64_t* outNative)
 {
 	bool found = false;
 	for (nMap::const_iterator it = map.begin(); it != map.end(); ++it)
@@ -6556,4 +6556,3 @@ uint64_t crossmap::MapNative(uint64_t inNative)
 	}
 	return NULL;
 }
-
