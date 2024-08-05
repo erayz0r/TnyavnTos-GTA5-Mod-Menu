@@ -101,10 +101,10 @@ void hooking::Init()
 	if (status != MH_OK || MH_EnableHook(hooking::get_label_text) != MH_OK) { LOG_DEBUG("Failed to hook GET_LABEL_TEXT"); }
 	MH_Hooked.push_back(hooking::get_label_text);
 
-	LOG_DEBUG("Hook ISE");
-	status = MH_CreateHook(hooking::increment_stat_event, IncrementStatEventHooked, (void**)&IncrementStatEventOriginal);
-	if ((status != MH_OK && status != MH_ERROR_ALREADY_CREATED) || MH_EnableHook(hooking::increment_stat_event) != MH_OK) { LOG_DEBUG("Failed to hook INCREMENT_STAT_EVENT"); }
-	MH_Hooked.push_back(hooking::increment_stat_event);
+	//LOG_DEBUG("Hook ISE");
+	//status = MH_CreateHook(hooking::increment_stat_event, IncrementStatEventHooked, (void**)&IncrementStatEventOriginal);
+	//if ((status != MH_OK && status != MH_ERROR_ALREADY_CREATED) || MH_EnableHook(hooking::increment_stat_event) != MH_OK) { LOG_DEBUG("Failed to hook INCREMENT_STAT_EVENT"); }
+	//MH_Hooked.push_back(hooking::increment_stat_event);
 
 	LOG_DEBUG("Hook IDP");
 	status = MH_CreateHook(hooking::is_dlc_present, IsDLCPresentHooked, (void**)&IsDLCPresentOriginal);
